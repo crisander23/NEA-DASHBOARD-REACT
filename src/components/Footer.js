@@ -1,6 +1,6 @@
 // src/components/Footer.js
 import React, { useEffect, useState } from 'react';
-import './Footer.css'; // Footer-specific styling
+import '../css/Footer.css'; // Footer-specific styling
 
 const Footer = () => {
   const [newsItems, setNewsItems] = useState([]);

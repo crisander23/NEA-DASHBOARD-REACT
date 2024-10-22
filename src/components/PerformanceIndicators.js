@@ -1,6 +1,6 @@
 // src/components/PerformanceIndicators.js
 import React from 'react';
-import './PerformanceIndicators.css';
+import '../css/PerformanceIndicators.css';
 import GaugeChart from 'react-gauge-chart'; // Import the Gauge Chart component
 
 const PerformanceIndicators = ({ values = [] }) => {

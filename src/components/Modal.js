@@ -1,6 +1,6 @@
 // src/components/Modal.js
 import React from 'react';
-import './Modal.css'; // Add your CSS for modal styling
+import '../css/Modal.css'; // Add your CSS for modal styling
 
 const Modal = ({ isOpen, onClose, data }) => {
   if (!isOpen) return null;

@@ -10,7 +10,8 @@ const Drilldown = () => {
   // State for technical performance, financial performance, performance indicator values, and selected province
   const [technicalValues, setTechnicalValues] = useState([0.4, 0.6, 0.8, 0.5]);
   const [financialValues, setFinancialValues] = useState([0.6, 0.4, 0.8, 0.5, 0.9]);
-  const [performanceValues, setPerformanceValues] = useState([0.5, 0.75, 0.3]);
+  const [performanceValues, setPerformanceValues] = useState([]); // Start as an empty array
+
   const [selectedProvince, setSelectedProvince] = useState('Choose EC on Map');
 
   // Function to handle updating values when a button in ArcGIS is clicked

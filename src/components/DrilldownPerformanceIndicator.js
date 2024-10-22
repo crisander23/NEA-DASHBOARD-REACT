@@ -1,6 +1,6 @@
 // src/components/DrilldownPerformanceIndicator.js
 import React from 'react';
-import './DrilldownPerformanceIndicator.css';
+import '../css/DrilldownPerformanceIndicator.css';
 
 const DrilldownPerformanceIndicator = ({ values = [] }) => {
   // Labels for the cards

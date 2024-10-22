@@ -1,6 +1,6 @@
 // src/components/TechnicalPerformance.js
 import React from 'react';
-import './TechnicalPerformance.css';
+import '../css/TechnicalPerformance.css';
 import GaugeChart from 'react-gauge-chart'; // Import the Gauge Chart component
 
 const TechnicalPerformance = ({ values }) => {

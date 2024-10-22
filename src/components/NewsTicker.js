@@ -1,6 +1,6 @@
 // NewsTicker.js
 import React, { useEffect, useState } from 'react';
-import './NewsTicker.css'; // Create a separate CSS file for styling
+import '.../css/NewsTicker.css'; // Create a separate CSS file for styling
 
 const NewsTicker = () => {
   const [newsItems, setNewsItems] = useState([]);

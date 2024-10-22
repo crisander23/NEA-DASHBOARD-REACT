@@ -1,6 +1,6 @@
 // src/components/FinancialPerformance.js
 import React from 'react';
-import './FinancialPerformance.css';
+import '../css/FinancialPerformance.css';
 import GaugeChart from 'react-gauge-chart'; // Import the Gauge Chart component
 
 const FinancialPerformance = ({ values }) => {

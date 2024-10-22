@@ -1,6 +1,6 @@
 // src/components/SelectedEC.js
 import React from 'react';
-import './SelectedEC.css';
+import '../css/SelectedEC.css';
 
 const SelectedEC = ({ selectedProvince }) => {
   return (
