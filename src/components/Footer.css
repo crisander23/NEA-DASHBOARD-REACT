@@ -1,0 +1,44 @@
+/* Footer.css */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Full width of the screen */
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px 0; /* Adjust padding for desired height */
+    height: 30px; /* Adjust the height to make it smaller */
+    border-top: none;
+    box-shadow: none;
+  }
+  
+  /* News ticker styles */
+  .news-ticker {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .news-ticker-content {
+    display: inline-block;
+    padding-left: 100%;
+    animation: ticker 15s linear infinite;
+  }
+  
+  .news-ticker-item {
+    margin-right: 50px; /* Space between news items */
+    font-size: 14px; /* Adjust font size if needed */
+    line-height: 1.2; /* Ensure proper line height */
+  }
+  
+  @keyframes ticker {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

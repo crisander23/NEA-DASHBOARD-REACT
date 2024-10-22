@@ -1,0 +1,31 @@
+/* NewsTicker.css */
+.news-ticker {
+    width: 100%;
+    background-color: #001945; /* Dark blue background to match the theme */
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px;
+    box-shadow: 0 4px 2px -2px gray;
+  }
+  
+  .news-ticker-content {
+    display: inline-block;
+    padding-left: 100%;
+    animation: ticker 15s linear infinite;
+  }
+  
+  .news-ticker-item {
+    margin-right: 50px; /* Space between news items */
+    font-size: 18px;
+  }
+  
+  @keyframes ticker {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

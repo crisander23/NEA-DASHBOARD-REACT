@@ -1,0 +1,17 @@
+/* SelectedEC.css */
+.selected-ec-card {
+    background-color: #1d1d1d;
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #00ff00;
+  }
+  
+  .selected-ec-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00ff00;
+  }
+  

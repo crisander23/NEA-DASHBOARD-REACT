@@ -1,0 +1,65 @@
+/* Navbar.css */
+.navbar {
+  background-color: #1d1d1d; /* Dark background color */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between logo+text and buttons */
+  padding: 20px 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow effect */
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center; /* Align logo image and text vertically */
+}
+
+.navbar-logo-img {
+  height: 50px; /* Adjust logo image size */
+  margin-right: 10px; /* Space between image and text */
+}
+
+.navbar-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff; /* White text for the logo */
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  flex: 1; /* Make sure the buttons take up available space */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin: 0 20px; /* Space between buttons */
+}
+
+/* Basic link styling */
+.navbar-link {
+  color: #ffffff; /* White text color */
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect for all links */
+.navbar-link:hover {
+  color: #d1d1d1; /* Hover effect for links */
+}
+
+/* Active link styling */
+.active {
+  background-color: #00a8b0; /* Blue background */
+  color: white;
+  border-radius: 30px; /* Rounded corners */
+  padding: 10px 20px; /* Make it feel like a button */
+}

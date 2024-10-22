@@ -1,0 +1,50 @@
+/* PerformanceIndicators.css */
+.performance-indicators {
+    display: flex;
+    justify-content: space-between; /* Ensures the cards are spread out evenly */
+    gap: 10px; /* Adjust the gap between each card */
+    padding: 10px; /* Adds some padding around the entire performance indicator section */
+  }
+  
+  .indicator-card {
+    background-color: #1C1C24; /* Light background color for the cards */
+    border-radius: 10px; /* Rounded corners for the card */
+    padding: 15px; /* Padding inside the card */
+    display: flex; /* Flexbox layout for aligning elements */
+    justify-content: space-between; /* Aligns content within the card */
+    align-items: center; /* Centers the content vertically */
+    width: 500px; /* Fixed width for the card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
+    transition: box-shadow 0.3s ease; /* Smooth transition effect when hovering */
+    flex-direction: column; /* Stacks elements vertically within the card */
+  }
+  
+  .indicator-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Increases shadow on hover for a pop-out effect */
+  }
+  
+  .card-content {
+    flex-grow: 1; /* Ensures the card content takes up available space */
+    display: flex; /* Flexbox layout for aligning content */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    flex-direction: column; /* Stacks title, gauge, and value indicator vertically */
+  }
+  
+  .card-title {
+    font-size: 18px; /* Font size for the card title */
+    color: #333; /* Dark color for the title */
+    margin-bottom: 10px; /* Space between the title and the gauge chart */
+  }
+  
+  .gauge-value {
+    font-size: 20px; /* Font size for the percentage indicator below the gauge */
+    color: #333; /* Dark color for the percentage value */
+    margin-top: 5px; /* Reduced space between gauge and percentage value */
+  }
+  
+  .gauge-container {
+    width: 100%; /* Makes the gauge chart take the full width of the card */
+    height: auto; /* Automatically adjusts the height based on the content */
+  }
+  

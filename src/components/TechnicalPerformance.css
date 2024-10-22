@@ -1,0 +1,30 @@
+/* TechnicalPerformance.css */
+.technical-performance {
+    display: flex;
+    justify-content: space-around; /* Space between the cards */
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .performance-card {
+    background-color: #1C1C24; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff; /* Darker text color */
+  }
+  
+  .gauge-value {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff; /* Darker text color */
+  }
+  

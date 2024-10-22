@@ -1,0 +1,33 @@
+/* DrilldownPerformanceIndicator.css */
+.drilldown-performance-indicators {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .indicator-card-drilldown {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  .card-content-drilldown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-title-drilldown {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .performance-status {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
