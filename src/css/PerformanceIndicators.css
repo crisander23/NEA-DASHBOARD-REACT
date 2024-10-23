@@ -4,6 +4,7 @@
     justify-content: space-between; /* Ensures the cards are spread out evenly */
     gap: 10px; /* Adjust the gap between each card */
     padding: 10px; /* Adds some padding around the entire performance indicator section */
+    padding-top: 45px;
   }
   
   .indicator-card {
