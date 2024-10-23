@@ -46,8 +46,9 @@ const LineChart = () => {
           legend: {
             position: 'top',
             labels: {
+              color: 'white', // Change the font color of dataset labels (legend)
               font: {
-                size: 10, // Smaller font size for the legend
+                size: 12, // Adjust font size if needed
               },
             },
           },
@@ -55,8 +56,9 @@ const LineChart = () => {
             display: true,
             text: 'Performance Metrics',
             font: {
-              size: 12, // Smaller title font size
+              size: 20, // Title font size
             },
+            color: 'white', // Title font color
             padding: {
               top: 5,
               bottom: 5,
@@ -67,15 +69,17 @@ const LineChart = () => {
           y: {
             beginAtZero: true,
             ticks: {
+              color: 'white', // Font color for Y-axis
               font: {
-                size: 10, // Smaller font for y-axis labels
+                size: 15, // Adjust Y-axis font size
               },
             },
           },
           x: {
             ticks: {
+              color: 'white', // Font color for X-axis
               font: {
-                size: 10, // Smaller font for x-axis labels
+                size: 15, // Adjust X-axis font size
               },
             },
           },
