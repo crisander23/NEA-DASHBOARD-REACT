@@ -4,7 +4,7 @@
     justify-content: space-around; /* Space between the cards */
     align-items: center;
     flex-wrap: nowrap; /* Prevent wrapping, keep all cards on the same line */
-    margin: 20px;
+    margin: 45px;
   }
   
   .performance-card {

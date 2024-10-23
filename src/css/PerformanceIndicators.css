@@ -2,8 +2,9 @@
 .performance-indicators {
     display: flex;
     justify-content: space-between; /* Ensures the cards are spread out evenly */
-    gap: 10px; /* Adjust the gap between each card */
+    gap: 50px; /* Adjust the gap between each card */
     padding: 10px; /* Adds some padding around the entire performance indicator section */
+    padding-top: 350px;
   }
   
   .indicator-card {
@@ -13,7 +14,7 @@
     display: flex; /* Flexbox layout for aligning elements */
     justify-content: space-between; /* Aligns content within the card */
     align-items: center; /* Centers the content vertically */
-    width: 500px; /* Fixed width for the card */
+    width: 350px; /* Fixed width for the card */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
     transition: box-shadow 0.3s ease; /* Smooth transition effect when hovering */
     flex-direction: column; /* Stacks elements vertically within the card */
