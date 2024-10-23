@@ -54,7 +54,7 @@ const LineChart = () => {
           },
           title: {
             display: true,
-            text: 'Performance Metrics',
+            text: 'Historical Data',
             font: {
               size: 20, // Title font size
             },
