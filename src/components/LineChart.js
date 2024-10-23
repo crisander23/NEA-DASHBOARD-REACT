@@ -11,11 +11,11 @@ const LineChart = () => {
     const lineChart = new Chart(ctx, {
       type: 'line',
       data: {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'], // X-axis labels
+        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September','October','November','December'], // X-axis labels
         datasets: [
           {
             label: 'Technical',
-            data: [65, 59, 80, 81, 56, 55, 40], // Data for technical
+            data: [65, 59, 80, 81, 56, 55, 40, 90, 101, 76, 85, 60], // Data for technical
             borderColor: 'rgb(75, 192, 192)',
             borderWidth: 2,
             fill: false,
@@ -23,7 +23,7 @@ const LineChart = () => {
           },
           {
             label: 'Financial',
-            data: [45, 39, 60, 71, 46, 35, 20], // Data for financial
+            data: [45, 39, 60, 71, 46, 35, 20, 80, 81, 56, 55, 40], // Data for financial
             borderColor: 'rgb(153, 102, 255)',
             borderWidth: 2,
             fill: false,
@@ -31,7 +31,7 @@ const LineChart = () => {
           },
           {
             label: 'Overall',
-            data: [85, 79, 90, 101, 76, 85, 60], // Data for overall
+            data: [85, 79, 90, 101, 76, 85, 60, 60, 71, 46, 35, 20], // Data for overall
             borderColor: 'rgb(255, 159, 64)',
             borderWidth: 2,
             fill: false,
