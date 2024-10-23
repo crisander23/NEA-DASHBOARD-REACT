@@ -1,0 +1,27 @@
+/* src/css/MainPage.css */
+
+.weather-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-card h2 {
+    margin: 0 0 8px;
+  }
+  
+  .map-button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .map-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  

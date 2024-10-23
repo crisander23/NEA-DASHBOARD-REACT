@@ -1,11 +1,23 @@
 // src/pages/Weather.js
-import React from 'react';
+import React, { useState } from 'react';
+import WeatherMap from '../components/WeatherMap';
+import WeatherCard from '../components/WeatherCard';
+import '../css/MainPage.css'; // Assuming you have some styles here
 
 const Weather = () => {
+  const [selectedWeather, setSelectedWeather] = useState(null);
+
+  const handleMapButtonClick = (weatherData, province) => {
+    setSelectedWeather({ ...weatherData, province });
+  };
+
   return (
-    <div>
-      <h1>Weather</h1>
-      <p>Current weather information is displayed here.</p>
+    <div className="weather-page">
+      <h1>Weather Map</h1>
+      <WeatherMap onMapButtonClick={handleMapButtonClick} />
+      {selectedWeather && (
+        <WeatherCard weather={selectedWeather} />
+      )}
     </div>
   );
 };
