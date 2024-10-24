@@ -1,11 +1,11 @@
 // src/pages/GISLive.js
 import React from 'react';
+import PhilippinesECMap from '../components/PhilippinesECMap'; // Import the PhilippinesECMap component
 
 const GISLive = () => {
   return (
-    <div>
-      <h1>GIS Live</h1>
-      <p>Live GIS stream is displayed here.</p>
+    <div style={{ height: '100vh' }}>
+      <PhilippinesECMap /> {/* Render the PhilippinesECMap with EC locations */}
     </div>
   );
 };

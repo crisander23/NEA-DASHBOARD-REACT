@@ -6,6 +6,7 @@ import FinancialPerformance from '../components/FinancialPerformance'; // Import
 import ArcGISMap from '../components/ArcGISMap'; // Import the ArcGISMap component
 import '../css/MainPage.css'; // Import CSS file
 
+
 const MainPage = () => {
   // Define state for performance indicators, technical performance, and financial performance
   const [performanceValues, setPerformanceValues] = useState([0.5, 0.75, 0.3]);
@@ -32,6 +33,7 @@ const MainPage = () => {
           <PerformanceIndicators values={performanceValues} /> {/* Pass dynamic values */}
           <TechnicalPerformance values={technicalValues} /> {/* Pass dynamic values */}
           <FinancialPerformance values={financialValues} /> {/* Pass dynamic values */}
+          
         </div>
       </div>
     </div>

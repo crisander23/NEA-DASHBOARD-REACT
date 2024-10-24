@@ -1,0 +1,19 @@
+/* src/css/ScadaLive.css */
+
+.scada-live-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .scada-main-content {
+    width: 65%; /* Main content takes 2/3 of the page */
+    padding: 20px;
+  }
+  
+  .scada-tables-container {
+    width: 30%; /* The table container takes 1/3 of the page */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Add some space between the tables */
+  }
+  

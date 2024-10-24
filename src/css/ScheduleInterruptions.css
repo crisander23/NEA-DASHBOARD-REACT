@@ -1,0 +1,52 @@
+.schedule-container {
+  width: 75%; /* Reduced width */
+  margin: 0 auto; /* Center the container horizontally */
+  background-color: #222; /* Dark background */
+  color: #fff; /* White text */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px;
+  border: 1px solid #444; /* Border around the container */
+}
+
+.schedule-title {
+  text-align: center;
+  font-size: 24px;
+  color: #ffcc00; /* Yellow title */
+  margin-bottom: 10px;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.table-scrollable {
+  max-height: 150px; /* Set the scrollable height */
+  overflow-y: auto; /* Enable vertical scrolling for the table */
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule-table th, .schedule-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.schedule-table th {
+  background-color: #333;
+  color: #ffcc00; /* Yellow color for headers */
+  position: sticky;
+  top: 0; /* Make the header stick at the top */
+  z-index: 1;
+}
+
+.schedule-table tr:nth-child(even) {
+  background-color: #2a2a2a; /* Alternating row colors */
+}
+
+.schedule-table tr:hover {
+  background-color: #444; /* Hover effect */
+}
