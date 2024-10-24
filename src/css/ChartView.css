@@ -5,9 +5,17 @@
     height: calc(100vh - 160px); /* Full height minus space for navbar (80px) and footer (30px) */
     padding: 20px;
 }
-  
+
+.middle-section {
+    flex: .6;/* Reduced width for the ArcGIS Map */
+    margin: 5px; /* Add space between the map and overall bar chart */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .left-side {
-    flex: 0.7; /* Reduced width for the ArcGIS Map */
+    flex: .4; /* Reduced width for the ArcGIS Map */
     margin-right: 20px; /* Add space between the map and overall bar chart */
     display: flex;
     justify-content: center;
@@ -15,11 +23,12 @@
 }
   
 .right-side {
-    flex: 1.3; /* Increase width for Performance Indicators */
+    flex: .5; /* Increase width for Performance Indicators */
     display: flex;
     flex-direction: column;
     justify-content: center; /* Center the components horizontally */
     align-items: center; /* Center the components vertically */
+    width: 400px;
 }
 
 .performance-container {

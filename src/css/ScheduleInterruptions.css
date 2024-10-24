@@ -6,6 +6,7 @@
   border-radius: 8px; /* Rounded corners */
   padding: 10px;
   border: 1px solid #444; /* Border around the container */
+  size: 35%;
 }
 
 .schedule-title {
