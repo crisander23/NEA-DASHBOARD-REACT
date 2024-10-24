@@ -4,8 +4,10 @@ import PerformanceIndicators from '../components/PerformanceIndicators';
 import TechnicalPerformance from '../components/TechnicalPerformance'; // Import the Technical Performance component
 import FinancialPerformance from '../components/FinancialPerformance'; // Import the Financial Performance component
 import ArcGISMap from '../components/ArcGISMap'; // Import the ArcGISMap component
+import ScheduleInterruptions from '../components/ScheduleInterruptions'; // Import the Schedule Interruptions component
+import OngoingPowerOutages from '../components/OngoingPowerOutages'; // Import the Ongoing Power Outages component
+import RestoredPowerOutages from '../components/RestoredPowerOutages'; // Import the Restored Power Outages component
 import '../css/MainPage.css'; // Import CSS file
-
 
 const MainPage = () => {
   // Define state for performance indicators, technical performance, and financial performance
@@ -27,14 +29,20 @@ const MainPage = () => {
         <ArcGISMap onMapButtonClick={handleMapButtonClick} /> {/* Pass handler to update values */}
       </div>
 
-      {/* Right side - Performance Indicators */}
-      <div className="right-side">
+      {/* Middle section - Performance Indicators */}
+      <div className="middle-section">
         <div className="performance-container">
           <PerformanceIndicators values={performanceValues} /> {/* Pass dynamic values */}
           <TechnicalPerformance values={technicalValues} /> {/* Pass dynamic values */}
           <FinancialPerformance values={financialValues} /> {/* Pass dynamic values */}
-          
         </div>
+      </div>
+
+      {/* Right side - Schedule Interruptions, Ongoing Power Outages, Restored Power Outages */}
+      <div className="right-side">
+        <ScheduleInterruptions />
+        <OngoingPowerOutages />
+        <RestoredPowerOutages />
       </div>
     </div>
   );
